@@ -23,7 +23,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     section#login {
         width: 950px;
         height: 350px;
