@@ -24,19 +24,32 @@
 }
 
 @media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top,#49a09d, #5f2c82);
+    }
+
     section#login {
         width: 950px;
         height: 350px;
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    section#login > h1 {
+        font-size: 2.0em;
+    }
+    
+    section#login > p {
+        font-size: 1.2em;
     }
 }
