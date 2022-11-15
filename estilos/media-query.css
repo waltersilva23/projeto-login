@@ -27,6 +27,22 @@
         float: right;
         width: 70%;
     }
+
+    #eye-cada {
+        color: #5f2c82;
+        position: absolute;
+        top: 175px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    #eye-cada2 {
+        color: #5f2c82;
+        position: absolute;
+        top: 240px;
+        right: 20px;
+        cursor: pointer;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -76,6 +92,7 @@
     #eye-cada {
         color: #5f2c82;
         position: absolute;
+        top: 175px;
         left: 420px;
         cursor: pointer;
     }
@@ -83,6 +100,7 @@
     #eye-cada2 {
         color: #5f2c82;
         position: absolute;
+        top: 240px;
         left: 420px;
         cursor: pointer;
     }
