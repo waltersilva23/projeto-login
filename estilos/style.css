@@ -192,7 +192,7 @@ div.campo2 > input:focus-within {
     background-color: #ffffff;
 }
 
-#eye-cada {
+#eye2 {
     color: #5f2c82;
     position: absolute;
     top: 315px;
@@ -200,7 +200,7 @@ div.campo2 > input:focus-within {
     cursor: pointer;
 }
 
-#eye-cada2 {
+#eye3 {
     color: #5f2c82;
     position: absolute;
     top: 380px;
@@ -221,3 +221,4 @@ div.campo2 > input:focus-within {
 button:hover {
     background-color: #2d6462;
 }
+

@@ -17,24 +17,24 @@
                     <h1 id="titulo">Cadastrar</h1>
                     <form action="" >
                         <div class="campo2">
-                            <input class="quadrado" type="text" name="nome" id="inome" placeholder="Nome Completo" required>
-                            <label for="inome">Nome Completo</label>
+                            <input class="quadrado" type="text" name="nome" id="inome" placeholder="Somente Letras" required minlength="3">
+                            <label id="labelnome" for="inome">Nome</label>
                         </div>
                         <div class="campo2">
-                            <input class="quadrado" type="email" name="login" id="ilogin" placeholder="E-mail do Login" autocomplete="email" required maxlength="30">
-                            <label for="ilogin">E-mail do Login</label>
+                            <input class="quadrado" type="email" name="login" id="ilogin" placeholder="E-mail do Login" autocomplete="email" required>
+                            <label id="labellogin" for="ilogin">E-mail do Login</label>
                         </div>
                         <div class="campo2">
-                            <input class="quadrado" type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="current-password" required minlength="8" maxlength="20">
-                            <label for="isenha">Senha</label>
-                            <span id="eye-cada" class="material-icons">visibility</span>
+                            <input class="quadrado" type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="current-password" required minlength="8">
+                            <label id="labelsenha" for="isenha">Senha</label>
+                            <span id="eye2" class="material-icons">visibility</span>
                         </div>
                         <div class="campo2">
-                            <input class="quadrado" type="password" name="confirmsenha" id="iconfirmsenha" placeholder="Confirmar Senha" autocomplete="current-password" required minlength="8" maxlength="20">
-                            <label for="iconfirmsenha">Confirmar Senha</label>
-                            <span id="eye-cada2" class="material-icons">visibility</span>
+                            <input class="quadrado" type="password" name="confirmsenha" id="iconfirmsenha" placeholder="Confirmar Senha" autocomplete="current-password" required minlength="8">
+                            <label id="labelconfirmsenha" for="iconfirmsenha">Confirmar Senha</label>
+                            <span id="eye3" class="material-icons">visibility</span>
                         </div>
-                        <input type="submit" value="Cadastrar">
+                        <input type="submit" value="Cadastrar" onclick="cadastrar()">
                         <a href="index.html" class="botao">Login</a>
                     </form>
                 </div>
