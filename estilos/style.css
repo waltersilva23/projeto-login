@@ -85,6 +85,13 @@ div.campo > span {
     padding: 5px;
 }
 
+#eye {
+    color: #5f2c82;
+    position: absolute;
+    right: 13px;
+    cursor: pointer;
+}
+
 div.campo > input {
     background-color: #94cfcd;
     font-size: 1em;
@@ -93,7 +100,7 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-12px);
+    transform: translateY(-13px);
 }
 
 div.campo > input:focus-within {
@@ -143,6 +150,10 @@ form > p {
     padding-top: 8px;
 }
 
+form > p > a {
+    text-decoration: none;
+}
+
 /*
 CSS a apenas do cadastro
 */
@@ -157,8 +168,28 @@ CSS a apenas do cadastro
     margin: 5px 0px;
 }
 
+div.campo2 > span {
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
 div.campo2 > input:focus-within {
     background-color: #ffffff;
+}
+
+#eye-cada {
+    color: #5f2c82;
+    position: absolute;
+    right: 13px;
+    cursor: pointer;
+}
+
+#eye-cada2 {
+    color: #5f2c82;
+    position: absolute;
+    right: 13px;
+    cursor: pointer;
 }
 
 .quadrado {

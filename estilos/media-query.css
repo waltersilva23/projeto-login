@@ -53,4 +53,25 @@
         font-size: 1em;
         margin: 10px 0px;
     }
+
+    #eye {
+        color: #5f2c82;
+        position: absolute;
+        left: 420px;
+        cursor: pointer;
+    }
+
+    #eye-cada {
+        color: #5f2c82;
+        position: absolute;
+        left: 420px;
+        cursor: pointer;
+    }
+
+    #eye-cada2 {
+        color: #5f2c82;
+        position: absolute;
+        left: 420px;
+        cursor: pointer;
+    }
 }
