@@ -42,11 +42,7 @@ confirmSenha.addEventListener('keyup',() => {
     }
 })
 
-function cadastrar(){
-    alert('clicado')
-}
-
-////para visualizar as senhas do cadastro
+//para visualizar as senhas do cadastro
 btn.addEventListener('click',()=>{
     let inputSenha = document.querySelector('#isenha')
 
