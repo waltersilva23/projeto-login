@@ -1,3 +1,4 @@
+//para visualizar a senha do login
 let btn = document.querySelector('#eye')
 
 btn.addEventListener('click',()=>{

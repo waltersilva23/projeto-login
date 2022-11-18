@@ -15,9 +15,11 @@ let labelconfirmSenha = document.querySelector('#labelconfirmsenha')
 nome.addEventListener('keyup',() => {
     if(nome.value.length <= 2){
         labelnome.innerHTML = '<strong>Insira no mínimo 3 caracteres</strong>'
+        labelnome.setAttribute('style','color: #ff3f3f')
         nome.setAttribute('style','color: red')
     } else {
-        labelnome.innerHTML = 'Nome'
+        labelnome.innerHTML = '<strong>Nome</strong>'
+        labelnome.setAttribute('style','color: #47eb47')
         nome.setAttribute('style','color: black')
     }
 })
@@ -25,9 +27,11 @@ nome.addEventListener('keyup',() => {
 senha.addEventListener('keyup',() => {
     if(senha.value.length <= 7){
         labelsenha.innerHTML = '<strong>Insira no mínimo 8 caracteres</strong>'
+        labelsenha.setAttribute('style','color: #ff3f3f')
         senha.setAttribute('style','color: red')
     } else {
-        labelsenha.innerHTML = 'Senha'
+        labelsenha.innerHTML = '<strong>Senha</strong>'
+        labelsenha.setAttribute('style','color: #47eb47')
         senha.setAttribute('style','color: black')
     }
 })
@@ -35,18 +39,16 @@ senha.addEventListener('keyup',() => {
 confirmSenha.addEventListener('keyup',() => {
     if(confirmSenha.value != senha.value ){
         labelconfirmSenha.innerHTML = '<strong>Senhas diferentes</strong>'
+        labelconfirmSenha.setAttribute('style','color: #ff3f3f')
         confirmSenha.setAttribute('style','color: red')
     } else {
-        labelconfirmSenha.innerHTML = 'Confirmar Senha'
+        labelconfirmSenha.innerHTML = '<strong>Confirmar Senha</strong>'
+        labelconfirmSenha.setAttribute('style','color: #47eb47')
         confirmSenha.setAttribute('style','color: black')
     }
 })
 
-function cadastrar(){
-    alert('clicado')
-}
-
-////para visualizar as senhas do cadastro
+//para visualizar as senhas do cadastro
 btn.addEventListener('click',()=>{
     let inputSenha = document.querySelector('#isenha')
 
