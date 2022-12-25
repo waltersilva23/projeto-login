@@ -8,7 +8,7 @@
     
     section#login {
         width: 80vw;
-        height: 400px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -28,21 +28,6 @@
         width: 70%;
     }
 
-    #eye2 {
-        color: #5f2c82;
-        position: absolute;
-        top: 175px;
-        right: 20px;
-        cursor: pointer;
-    }
-
-    #eye3 {
-        color: #5f2c82;
-        position: absolute;
-        top: 240px;
-        right: 20px;
-        cursor: pointer;
-    }
 }
 
 @media screen and (min-width: 992px) {
@@ -53,7 +38,7 @@
 
     section#login {
         width: 950px;
-        height: 400px;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -82,26 +67,4 @@
         margin: 10px 0px;
     }
 
-    #eye {
-        color: #5f2c82;
-        position: absolute;
-        left: 420px;
-        cursor: pointer;
-    }
-
-    #eye2 {
-        color: #5f2c82;
-        position: absolute;
-        top: 175px;
-        left: 420px;
-        cursor: pointer;
-    }
-
-    #eye3 {
-        color: #5f2c82;
-        position: absolute;
-        top: 240px;
-        left: 420px;
-        cursor: pointer;
-    }
 }
